@@ -12,11 +12,4 @@ export const getUserInfo = (params) => {
 };
 
 export const search = () => {
-  return fetch(`http://api.dotfashion.cn:8115/mock/435/payOrder/selectPayOrderPage`
-    , {
-    method: 'GET',
-  }).then(
-    response => response.json()
-  );
-
 };
