@@ -1,0 +1,25 @@
+.main{
+  display: flex;
+  height: 800px;
+}
+.leftSide{
+  background-color: #404040;
+  height: 100%;
+  width: 230px;
+}
+.leftSide .title{
+  width: 100%;
+  text-align: center;
+  padding: 0 16px;
+  font-size: 12px;
+  line-height: 42px;
+  height: 42px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: block;
+  color:#fff;
+}
+.rightSide{
+  width:100%;
+  height: 100%;
+}
